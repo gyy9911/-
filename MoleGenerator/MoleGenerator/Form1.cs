@@ -101,26 +101,27 @@ namespace MoleGenerator
 
         private void sendMail(Player p, int code)
         {
-            string uid = "gyy9911";//发件人邮箱地址@符号前面的字符tom@dddd.com,则为"tom"  
-            string pwd = "RMMWOKVQZIKOLIRG";
-            MailAddress from = new MailAddress("gyy9911@yeah.net");
+            string uid = "494615621";//发件人邮箱地址@符号前面的字符tom@dddd.com,则为"tom"  
+            string pwd = "";
+            MailAddress from = new MailAddress("494615621@qq.com");
 
             MailAddress to = new MailAddress(p.Mail);
             MailMessage mailMessage = new MailMessage(from, to);
 
             string team; string mole;
             if (code % 2 == 1) team = "A"; else team = "B";
-            if (code == 0 || code == 1) mole = "你是内鬼！！！"; else mole = "你不是内鬼";
+            if (code == 1 || code == 2) mole = "你是内鬼！！！"; else mole = "你不是内鬼";
 
             mailMessage.Subject = "内鬼生成器测试from学生卡";//邮件主题  
             mailMessage.Body = "你属于队伍" + team + "," + mole;//邮件正文 
                                                            //实例化SmtpClient  
-            SmtpClient smtpClient = new SmtpClient("smtp.yeah.net", 25);
+            SmtpClient smtpClient = new SmtpClient("smtp.qq.com", 25);
             smtpClient.UseDefaultCredentials = true;
             //设置验证发件人身份的凭据  
             smtpClient.Credentials = new NetworkCredential(uid, pwd);
             //发送  
             smtpClient.Send(mailMessage);
+            Console.WriteLine(p.Name + mailMessage.Body+code.ToString());
         }
 
         private void buttonDel_Click(object sender, EventArgs e)

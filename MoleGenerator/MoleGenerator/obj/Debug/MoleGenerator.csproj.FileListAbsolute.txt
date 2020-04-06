@@ -8,3 +8,13 @@ F:\内鬼生成器\MoleGenerator\MoleGenerator\obj\Debug\MoleGenerator.csproj.Ge
 F:\内鬼生成器\MoleGenerator\MoleGenerator\obj\Debug\MoleGenerator.exe
 F:\内鬼生成器\MoleGenerator\MoleGenerator\obj\Debug\MoleGenerator.pdb
 F:\内鬼生成器\MoleGenerator\MoleGenerator\obj\Debug\MoleGenerator.FormAdd.resources
+F:\内鬼生成器\MoleGenerator\MoleGenerator\MoleGenerator\bin\Debug\MoleGenerator.exe.config
+F:\内鬼生成器\MoleGenerator\MoleGenerator\MoleGenerator\bin\Debug\MoleGenerator.exe
+F:\内鬼生成器\MoleGenerator\MoleGenerator\MoleGenerator\bin\Debug\MoleGenerator.pdb
+F:\内鬼生成器\MoleGenerator\MoleGenerator\MoleGenerator\obj\Debug\MoleGenerator.csprojAssemblyReference.cache
+F:\内鬼生成器\MoleGenerator\MoleGenerator\MoleGenerator\obj\Debug\MoleGenerator.Form1.resources
+F:\内鬼生成器\MoleGenerator\MoleGenerator\MoleGenerator\obj\Debug\MoleGenerator.FormAdd.resources
+F:\内鬼生成器\MoleGenerator\MoleGenerator\MoleGenerator\obj\Debug\MoleGenerator.Properties.Resources.resources
+F:\内鬼生成器\MoleGenerator\MoleGenerator\MoleGenerator\obj\Debug\MoleGenerator.csproj.GenerateResource.cache
+F:\内鬼生成器\MoleGenerator\MoleGenerator\MoleGenerator\obj\Debug\MoleGenerator.exe
+F:\内鬼生成器\MoleGenerator\MoleGenerator\MoleGenerator\obj\Debug\MoleGenerator.pdb
