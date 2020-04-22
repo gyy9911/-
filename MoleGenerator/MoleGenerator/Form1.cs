@@ -82,7 +82,7 @@ namespace MoleGenerator
             }
             foreach (int item in codeList)//生成乱序数列
             {
-                randomList.Insert(random.Next(randomList.Count), item);
+                randomList.Insert(random.Next(randomList.Count+1), item);
             }
 
             int j = 0;
@@ -110,7 +110,7 @@ namespace MoleGenerator
 
             string team; string mole;
             if (code % 2 == 1) team = "A"; else team = "B";
-            if (code == 1 || code == 2) mole = "你是内鬼！！！"; else mole = "你不是内鬼";
+            if (code == 1 || code == 2) mole = "你是内鬼！！！"; else mole = "你是好人";
 
             mailMessage.Subject = "内鬼生成器测试from学生卡";//邮件主题  
             mailMessage.Body = "你属于队伍" + team + "," + mole;//邮件正文 
